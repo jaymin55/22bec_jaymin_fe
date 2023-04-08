@@ -65,6 +65,7 @@ table?
 
 
 • What is SVG? 
+-scalable vector graphic , it is a image format
 
 
 • What is difference between HTML and XHTML? 
