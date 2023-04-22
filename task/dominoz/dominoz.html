@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            width: auto;
+            height: 500px;
+            display: grid;
+            grid-template-columns: 700px 700px;
+        }
+        img{
+            height: 180px;
+            width: 650px;
+        }
+        .img-1{
+            height: 80px;
+            width: 400px;
+            margin: 90px 20px;
+        }
+        .img-2{
+            height: 300px;
+        }
+        .img-5{
+            height: 100px;
+            width: 100px;
+            margin: 40px;
+            border: 2px solid;
+        }
+        .navbar{
+            height: 100px;
+            width: 100%;
+            background: blue;
+        }
+        p{
+            font-size: 22px;
+            text-align: end;
+            margin-right: 19px;
+        }
+        @media(max-width:500px){
+            .main{
+                display: grid;
+                grid-template-columns: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav> 
+        <div class="navbar"><p>my account</p></div>
+    </nav>
+    <div class="main">
+        <img class="img-1" src="../dominoz/dominosLogoBlue.png" alt="">
+        <img class="img-2" src="../dominoz/dominos_adaptation_desktop.jpg" alt="">
+        <img class="img-3" src="../dominoz/bike.png" alt="">
+        <img class="img-4" src="../dominoz/Dominos_Howzzat_IPL-2021_Pizza_Online.jpg" alt="">
+        <img class="img-5" src="../dominoz/paytm_wallet_offer_on_dominos_20211124@3x.jpg" alt="">
+    </div>
+</body>
+</html>
