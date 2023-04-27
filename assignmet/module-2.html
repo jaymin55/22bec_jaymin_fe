@@ -17,6 +17,15 @@
             font-weight: 100;
             background: black;
         }
+         .line-1{
+            grid-template-columns:repeat(3, 100px);
+            display: flex;
+            justify-content: space-between;
+        }
+        .line-2{
+            display: flex;
+            justify-content: space-around;
+        }
     </style>
 </head>
 <body>
@@ -117,19 +126,21 @@ disadvantages<br>
     </div>
     <div class="20">
         <b>Create Layouts</b><br>
-        <table border="1px">
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>html</td>
-                <td>css</td>
-                <td>javascript</td>
-            </tr>
-        </table>
-
+        <div class="line-1">
+            <div class="item1"><h3> Thumbnail-1</h3> <p>This is a wider card with supporting text below as a natural lead in to additional content. This content is a little bit longer.</p> 
+           <button>view</button> <button>edit</button></div>
+            <div class="item2"><h3> Thumbnail-2</h3> <p>This is a wider card with supporting text below as a natural lead in to additional content. This content is a little bit longer.</p>
+                <button>view</button> <button>edit</button></div>
+            <div class="item3"><h3> Thumbnail-3</h3> <p>This is a wider card with supporting text below as a natural lead in to additional content. This content is a little bit longer.</p>
+                <button>view</button> <button>edit</button></div></div>
+        <div class="line-2">
+            <div class="item4"><h3> Thumbnail-4 </h3> <p>This is a wider card with supporting text below as a natural lead in to additional content. This content is a little bit longer.</p>
+                <button>view</button> <button>edit</button></div>
+            <div class="item5"><h3>Thumbnail-5</h3> <p>This is a wider card with supporting text below as a natural lead in to additional content. This content is a little bit longer.</p>
+                <button>view</button> <button>edit</button></div>
+            <div class="item6"> <h3>Thumbnail-6</h3> <p>This is a wider card with supporting text below as a natural lead in to additional content. This content is a little bit longer.</p>
+                <button>view</button> <button>edit</button></div>
+        </div>
     </div>
 </body>
 </html>
