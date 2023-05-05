@@ -1,0 +1,11 @@
+@media(max-width:500px){
+    span{
+        visibility: visible;
+    }
+    ul{
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+    }
+}

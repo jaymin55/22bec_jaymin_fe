@@ -1,0 +1,6 @@
+div{
+    height: 500px;
+   background: 
+    linear-gradient(60deg,rgba(100,00,00,0.5), rgba(100,140,111,0.5)), url(/Users/ANGEL/Pictures/cartoon\ image.jpg);
+   background-size: 100% 100%;
+}

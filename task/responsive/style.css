@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background: black;
+    height: 60px;
+    position: relative;
+}
+span{
+    top: 15px;
+    left: 25px;
+}
+span:hover ul{
+    position: absolute;
+    left: -10px;
+    top: 30px;
+    visibility: visible;
+}
+ul{
+    display: flex;
+    color: coral;
+}
+li{
+    padding: 15px 20px;
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+}

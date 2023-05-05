@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.submit{
+    background: blue;
+    color: aliceblue;
+}
+button{
+    width: 200px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+form{
+    text-align: center;
+}
+fieldset{
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 500px;
+}
