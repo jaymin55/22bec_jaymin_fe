@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    font-size: 20px;
+    height: 70px;
+    background: transparent;
+    line-height: 110px;
+    color:black;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 40px 50px;
+}
+li:hover{
+    background: green;
+    color: white;
+    font-size: 25px;
+    
+}
