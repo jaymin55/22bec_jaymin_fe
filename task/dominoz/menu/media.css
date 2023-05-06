@@ -1,0 +1,16 @@
+@media (max-width:800px)
+{
+    .item{
+        display: grid;
+        grid-template-columns: 200px 200px;
+
+    }
+    .line-2{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+    .price{
+        display: none;
+    }
+}
