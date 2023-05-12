@@ -1,0 +1,13 @@
+@media(max-width:600px)
+{
+    li{
+        display: none;
+    }
+    #icon{
+        display: block;
+        padding: 20px;
+        background: black;
+        color: cadetblue;
+    }
+    
+}
