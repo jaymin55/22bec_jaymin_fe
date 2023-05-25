@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!----- question ------ -->
+    <h2>question-12</h2>
+
+    <h4>How can you convert the string of any base to an integer in JavaScript?
+    </h4>
+    
+    <!------ answer --------->
+    <h3>answer</h3>
+
+    <h3></h3>
+   <p id='convert'>To convert a string to an integer in JavaScript</p>
+   <script>
+    
+      let a = parseInt("100");
+      let b = parseInt("100.234");
+      let c = parseInt([1.2]);
+      let d = parseInt(true);
+      let e = parseInt("hello")
+      document.getElementById('convert').innerHTML = `parseInt("100") is ${a} ${'<br/>'} parseInt("100.234") is ${b} ${'<br/>'} parseInt([1.2]) is ${c} ${'<br/>'} parseInt(true) is ${d} ${'<br/>'} parseInt('hello') is ${e} `;
+   </script>
+</body>
+</html>

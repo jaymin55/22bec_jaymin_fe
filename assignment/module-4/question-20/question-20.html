@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./min.js"></script>
+</head>
+<body>
+    <fieldset>
+        <form action="">
+            <legend><b>marksheet for IT</b></legend>
+            <legend>enter mark</legend>
+
+            <label for="c_language">1. c language</label>
+            <input type="number" id="c"><br><br>
+            <label for="c++">2. c++ language</label>
+            <input type="number" id="c++"><br><br>
+            <label for="database">3. database</label>
+            <input type="number" id="db"><br><br>
+            <label for="html">4. html</label>
+            <input type="number" id="html"><br><br>
+            <label for="css">5. css</label>
+            <input type="number" id="css"><br><br>
+            <label for="php">6. php</label>
+            <input type="number" id="php"><br><br>
+            <label for="core_java">7. core java</label>
+            <input type="number" id="cr"><br><br>
+
+            <button onclick="return calculate()">result</button>
+            <hr>
+            
+
+            <table>
+                <tr>
+                    <td>total</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>obtain</td>
+                    <td id="total"></td>
+                </tr>
+                <tr>
+                    <td>percentage</td>
+                    <td id="percentage"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>

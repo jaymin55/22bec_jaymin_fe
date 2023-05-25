@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .password{
+            display: inline-block;
+            position: relative;
+            border: 2px solid black;
+        }
+        .password input{
+            padding: 10px 5px;
+            outline: none;
+            border: 0;
+        }
+        .fa-sharp{
+            position: absolute;
+            left: 150px;
+            top: 10px;
+            width: 20px;
+        }
+    </style>
+    <script>
+        var a;
+        function pass(){
+            if(a==1){
+                document.getElementById('password').type='password';
+                document.getElementById('icon');
+            }
+            else{
+                document.getElementById('password').type='text';
+                document.getElementById('icon');
+            }
+        }
+    </script>
+</head>
+<body>
+     <!----- question ------ -->
+     <h2>question-18</h2>
+
+     <h4>create password field with show hide function </h4>
+     
+     <!------ answer --------->
+     <h3>answer</h3>
+
+     <div class="password">
+        <input type="password" placeholder="password" id="password">
+        <i class="fa-sharp fa-solid fa-eye-slash" id="icon" onclick="pass()" ></i>
+     </div>
+</body>
+</html>
