@@ -1,0 +1,14 @@
+span{
+    color: grey;
+    display: block;
+    height: 10px;
+    width: 270px;
+    border: 2px solid grey;
+}
+ul{
+    list-style: none;
+}
+li,span,div,ul,body{
+    padding: 10px;
+    color: red;
+}
