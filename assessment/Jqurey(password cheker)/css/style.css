@@ -1,0 +1,48 @@
+#passwordTest {
+    width: 440px;
+    display: flex;
+    background: #F0F0F0;
+    padding: 20px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+   }
+   #passwordTest input{
+    width: 97.5%;
+    height: 25px;
+    outline: blue;
+    margin-bottom: 5px;
+    border: 2px solid blue;
+    border-radius: 4px;
+    line-height: 25px;
+    padding-left: 5px;
+    font-size: 25px;
+    color: #829CBD;
+   }
+   #pass-info{
+    width: 80px;
+    height: 25px;
+    margin-left: 20px;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    font: 12px/25px Arial, Helvetica, sans-serif;
+   }
+   #pass-info.weakpass{
+    border: 1px solid #FF9191;
+    background: coral;
+    color: white;
+    font-weight: bold;
+   }
+   
+   #pass-info.goodpass {
+    border: 1px solid #C4EEC8;
+    background: #E4FFE4;
+    color: lightgreen;
+    font-weight: bold;
+   }
+   #pass-info.strongpass {
+    border: 1px solid #6ED66E;
+    background: #79F079;
+    color: green;
+    font-weight: bold;
+   }
