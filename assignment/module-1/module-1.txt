@@ -3,6 +3,7 @@
 • Are the HTML tags and elements the same thing? 
   -no,both are diffrent
 
+
 • What are tags and attributes in HTML? 
 - attribuate means we can pass the additional information
 -<b>,<i>,<br>
